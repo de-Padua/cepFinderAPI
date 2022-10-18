@@ -1,0 +1,100 @@
+<html lang="en">
+<head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Alkalami&family=Anton&family=Bebas+Neue&family=Josefin+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500&family=Monoton&family=Nabla&family=Open+Sans:wght@500&family=Pirata+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@200;400;800&family=Roboto:wght@100;300&family=Rubik+Mono+One&family=Staatliches&family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap');
+        </style>
+        <script src="https://kit.fontawesome.com/6585f0b2f7.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscador de endereço</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="icon-html.png" type="image/x-icon">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="encapsulated">
+        <div class="text-content">
+            <H1 class="title">Buscador de Endereço</H1>
+        
+        <p>  Digite um cep e ache o endereço e mais infos
+            <br>
+            Este buscador de endereço usa uma API que usa o cep informado e gera algumas informações .</p>
+    
+      
+        <div class="feitopor">
+            <div class="git">
+                <a href="https://github.com/de-Padua" target="_blank">Repositório <i class="fa-brands fa-square-github"></i></a>
+            </div> 
+        
+        </div>
+
+        </div>
+        
+        <div class="semi-container">
+            <div class="form 1">
+                <form action="">
+                <label for="input">Procurar por Endereço</label>
+                <input type="text" class="form-cep" placeholder="CEP" id="cep" maxlength="9">
+                 <button class="procurar"><a href="#">Procurar</a></button>
+            </form>
+            </div>
+            <div class="form 2">
+                <form action="" class="formp">
+                    <label for="input">Endereço</label>
+                    <input type="text" class="form-cep" placeholder="Endereço" id="logradouro">
+                     
+                </form>
+            </div>
+           <div class="form 3">
+            <form action="" class="formp">
+                <label for="input">Bairro</label>
+                <input type="text" class="form-cep" placeholder="Bairro" id="bairro">   
+            </form>
+           </div>
+            <div class="form 4">
+                <form action="" class="formp">
+                    <label for="input">UF</label>
+                    <input type="text" class="form-cep" placeholder="Estado" id="uf">
+                     
+                </form>
+            </div>
+            <div class="form 5">
+                <form action="" class="formp">
+                    <label for="input">Cidade</label>
+                    <input type="text" class="form-cep" placeholder="Cidade" id="localidade">
+                     
+                </form>
+            </div>
+           <div class="form 6">
+            <form action="" class="formp">
+                <label for="input">
+                    DDD
+                </label>
+                <input type="text" class="form-cep" placeholder="(xx)" id="DDD">
+                 
+            </form>
+           </div>
+           <div class="form 7">
+            <form action="" class="formp">
+                <label for="input">
+                    
+                   IBGE
+                </label>
+                <input type="text" class="form-cep" placeholder="IBGE" id="ibge">
+                 
+            </form>
+           </div>
+           <a href="#" class="more">Saiba mais</a>
+        </div>
+    </div>
+        
+    </div>
+     
+   <p class="display-info">.   Info :Made by Antonio</p>
+     
+
+    <script src="script.js"></script>
+</body>
+</html>
