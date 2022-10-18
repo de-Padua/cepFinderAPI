@@ -5,6 +5,7 @@ body,html {
 	animation: gradient 120s ease infinite;
     font-family: 'Staatliches', cursive;
     overflow-x: hidden;
+    overflow-y: hidden;
 
 }
 .container{
