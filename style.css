@@ -45,16 +45,14 @@ body,html {
     border-bottom: 5px solid black;
 }
 .form{
-    
     font-size: 20px; 
     width: 80%;
-    
-   
+  
 }
 .form label{
-    font-size: 30px;
+    margin: 0;
     color: black;
-    font-weight: 1000;
+   
  
   
 }
